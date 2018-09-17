@@ -1,0 +1,14 @@
+<script>
+    // ES5
+    var myFunctionES5 = {
+        funcLog: function(msg) {
+            return msg;
+        }
+    };
+    // ES6
+    let myFunctionES6 = {
+        funcLog: msg => msg
+    };
+    console.log(myFunctionES5.funcLog('hello')); // hello
+    console.log(myFunctionES6.funcLog('kim')); // kim
+</script>

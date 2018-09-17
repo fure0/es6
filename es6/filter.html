@@ -1,0 +1,14 @@
+<script>
+   var datas = [
+    { id: 3, type: 'comment', content: 'good morning'},
+    { id: 6, type: 'post', content: 'I' },
+    { id: 10, type: 'comment' ,content: 'fine' },
+    { id: 6, type: 'post', content: 'thank you' }
+  ];
+
+    var filteredData = datas.filter( data => {
+        return data.type === 'post';
+    });
+
+    console.log(filteredData);
+</script>
